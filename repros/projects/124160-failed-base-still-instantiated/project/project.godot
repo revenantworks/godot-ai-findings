@@ -1,0 +1,8 @@
+; Minimal project for this finding. See README.md at the repo root.
+; Run headless with -s res://main.gd after one --import pass (the probe does both).
+config_version=5
+
+[application]
+
+config/name="Repro 124160 failed base still instantiated"
+config/features=PackedStringArray("4.7")

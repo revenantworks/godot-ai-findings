@@ -1,0 +1,7 @@
+; Minimal project so the repro scripts can run headless:
+;   godot --headless --path repros -s <script>.gd
+config_version=5
+
+[application]
+
+config/name="godot-contributor repros"

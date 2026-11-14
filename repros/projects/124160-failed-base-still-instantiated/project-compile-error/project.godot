@@ -1,0 +1,11 @@
+; Godot issue 124160, the reporter's shorter variant: the base class fails at the COMPILE stage
+; (it names an autoload, which a `-s` run does not know yet), not at the parse stage.
+config_version=5
+
+[application]
+
+config/name="repro-124160-compile-error"
+
+[autoload]
+
+Auto="*res://auto.gd"

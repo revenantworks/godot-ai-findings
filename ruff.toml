@@ -1,0 +1,5 @@
+# Lint settings for the Python helpers (tools/, repros/). Run: ruff check .
+line-length = 110
+
+[lint]
+select = ["E", "F", "W", "I"]

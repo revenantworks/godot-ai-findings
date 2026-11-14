@@ -1,0 +1,7 @@
+; Minimal project for this finding. See README.md at the repo root.
+config_version=5
+
+[application]
+
+config/name="Repro 125035 tile inspector"
+config/features=PackedStringArray("4.6")

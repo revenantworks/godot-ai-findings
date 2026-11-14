@@ -1,0 +1,6 @@
+; Godot issue 92054 family: a new class_name is unknown to a headless `-s` run until `--import`.
+config_version=5
+
+[application]
+
+config/name="repro-92054-class-name-cache"

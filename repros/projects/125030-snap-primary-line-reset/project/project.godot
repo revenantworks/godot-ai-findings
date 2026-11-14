@@ -1,0 +1,8 @@
+; Minimal project for this finding. See README.md at the repo root.
+; The issue needs no scene: the Configure Snap dialog belongs to the 2D editor.
+config_version=5
+
+[application]
+
+config/name="Repro 125030 snap primary line"
+config/features=PackedStringArray("4.6")
