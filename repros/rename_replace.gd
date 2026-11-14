@@ -2,7 +2,7 @@ extends SceneTree
 ## Probe: when DirAccess.rename_absolute(from, to) replaces an existing `to` and the move fails,
 ## is `to` still there?
 ## Run: godot --headless --path repros -s rename_replace.gd
-## Met in Evolution at src/main/atomic_file.gd:17 (and key_bindings.gd:59, main.gd:274): a save's
+## Met in Evolution's atomic file writer (and its key bindings and main save paths): a save's
 ## tmp is renamed over the last good save. Upstream match: Godot issue 118858.
 ##
 ## Godot 4.7.2's Windows rename (drivers/windows/dir_access_windows.cpp, lines 340 to 346) deletes

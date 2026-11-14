@@ -2,8 +2,8 @@ extends SceneTree
 ## Probe: a Control outside any Container that grew to meet its minimum size, then had its
 ## position set, stops shrinking when the minimum drops.
 ## Run: godot --headless --path repros -s control_position_bake.gd
-## Met in Evolution at src/ui/hud.gd:2066 (the left panel ran 30 to 50 px past the window) and
-## src/ui/season_notice.gd:473 (a notice panel stuck 1694 px tall).
+## Met in Evolution's HUD script (the left panel ran 30 to 50 px past the window) and its
+## season notice panel (stuck 1694 px tall).
 ##
 ## Control.set_position (scene/gui/control.cpp, line 1482 on 4.7.2) recomputes the offsets from
 ## the CURRENT size, which the minimum has already stretched. The stretched size is then stored

@@ -1,7 +1,7 @@
 class_name BrokenBase
 extends RefCounted
 # Fails to compile on purpose: NoSuchClass is never declared. This is the "undeclared class"
-# case that Evolution's docs/HANDOFF.md records as dropping the whole script.
+# case that Evolution's handoff notes record as dropping the whole script.
 
 var marker := 41
 

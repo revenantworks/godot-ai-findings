@@ -1,7 +1,7 @@
 extends SceneTree
 ## Probe: does ConfigFile report the right line number for a parse error?
 ## Run: godot --headless --path repros -s configfile_line.gd
-## Met in Evolution at tools/check_hud.gd:1334 ("line 3 counted from 0" for a bad 4th line).
+## Met in Evolution's HUD check tool ("line 3 counted from 0" for a bad 4th line).
 ##
 ## Each case puts one bad line ("x = = 1") on a known 1-based line and loads it. The engine's own
 ## ERROR line names the line it blames; compare it with the PROBE line printed just after it.
