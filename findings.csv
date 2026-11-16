@@ -1,0 +1,11 @@
+finding,title,repro,runner,check,issues,prs,build
+1,Float parsing is not correctly rounded,repros/float_parse.gd,linux,float_parse,123700;124516,123839,4.7.2-stable
+2,"""%.6f"" % x misrounds on Windows",repros/format_6f.gd,windows,format_6f,125468,,4.7.2-stable
+3,A new class_name is unknown to -s until --import,repros/projects/92054-class-name-cache-headless/project,linux,class_name_cache,92054,,4.7.2-stable
+4,"A script whose base failed to compile still runs, then crashes",repros/projects/124160-failed-base-still-instantiated/probe/run_repro.py,linux,crash_runner,124160,,4.7.2-stable
+5,Windows DirAccess.rename deletes the target before the move,repros/rename_replace.gd,windows,rename,118858,118933,4.7.2-stable
+6,ConfigFile parse errors name the line before the bad one,repros/configfile_line.gd,linux,configfile,,,4.7.2-stable
+7,A Control stops shrinking to its minimum once position is set,repros/control_position_bake.gd,linux,control_bake,,,4.7.2-stable
+8,TileSet tile inspector is blank on the 4.6 branch,repros/projects/125035-tile-inspector-blank,none,issue_only,125035,,
+9,Configure Snap resets Primary Line Every on Tab,repros/projects/125030-snap-primary-line-reset,none,issue_only,125030,,
+10,"sin, cos, atan2 differ in the last bit, Windows vs Linux",,none,not_tracked,,,
