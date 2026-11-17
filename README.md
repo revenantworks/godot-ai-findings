@@ -22,6 +22,16 @@ means a search found nothing, not that no report exists.
 | 9 | Configure Snap resets Primary Line Every on Tab | 4.8-beta2, 4.8-beta3 | AI-run, Windows | 125030 |
 | 10 | `sin`, `cos`, `atan2` differ in the last bit, Windows vs Linux | 4.7.2 | Unverified, no repro | None found |
 
+## Status
+
+A weekly workflow re-runs the repros on each new stable Godot build from godot-builds
+(findings 1, 3, 4, 6 and 7 on Linux, 2 and 5 on Windows) and reads the linked issue and PR
+states. It rewrites only the table between the markers below. `findings.csv` lists what it runs.
+
+<!-- status:start -->
+No status run yet. The weekly workflow fills this table.
+<!-- status:end -->
+
 ## How to run
 
 Single-script repros, headless, from the repo root:
